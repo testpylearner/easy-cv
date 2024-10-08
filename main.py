@@ -18,9 +18,6 @@ EDUCATION = {
     "2018 - 2020": ["WHAT DID YOU LEARN 1", "WHERE 1", "CITY, COUNTRY 1", "WHAT YOU LEARNED 1"],
     "2016 - 2018": ["WHAT DID YOU LEARN 0", "WHERE 0", "CITY, COUNTRY 0", "WHAT YOU LEARNED 0"],
 }
-MAIL_ADDRESS = os.environ.get("EMAIL_KEY")
-MAIL_APP_PW = os.environ.get("PASSWORD_KEY")
-
 app = Flask(__name__)
 Bootstrap5(app)
 
